@@ -1,9 +1,9 @@
 export const navigationLinks = [
-  { label: 'Início', path: '#home' },
-  { label: 'Sobre mim', path: '#about' },
-  { label: 'Projetos', path: '#projects' },
+  { label: 'Inicio', path: '#home' },
+  { label: 'Sobre mi', path: '#about' },
+  { label: 'Projectos', path: '#projects' },
   { label: 'Habilidades', path: '#skills' },
-  { label: 'Contato', path: '#contact' }
+  { label: 'Contacto', path: '#contact' }
 ]
 
 export type projectType = {
@@ -16,6 +16,7 @@ export type projectType = {
 }
 
 export const projectsData: projectType[] = [
+/*
   {
     name: 'Countries App',
     repo: 'https://github.com/grazziotti/rest-countries-api',
@@ -25,7 +26,7 @@ export const projectsData: projectType[] = [
     description:
       'O Countries App é um aplicativo web que fornece informações sobre diferentes países ao redor do mundo.',
     tags: ['react', 'typescript', 'styled-components', 'axios', 'api']
-  },
+    },
   {
     name: 'Space Tourism Website',
     repo: 'https://github.com//grazziotti/space-tourism-website',
@@ -90,9 +91,11 @@ export const projectsData: projectType[] = [
     description: 'Um jogo clássico de pedra-papel-tesoura disponível online.',
     tags: ['html', 'css', 'javascript', 'bem']
   }
+*/
 ]
 
 export const skillsData = [
+/*
   {
     img: 'html5/html5-original.svg',
     name: 'HTML'
@@ -140,5 +143,10 @@ export const skillsData = [
   {
     img: 'git/git-original.svg',
     name: 'Git'
+  },
+*/
+  {
+    img: 'cplusplus/cplusplus-original.svg',
+    name: 'C++'
   }
 ]

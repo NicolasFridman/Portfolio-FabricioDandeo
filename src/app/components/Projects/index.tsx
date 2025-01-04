@@ -47,7 +47,7 @@ export const Projects = () => {
   }, [isInView])
 
   return (
-    <SectionContainer id="projects" title="Projetos">
+    <SectionContainer id="projects" title="Projectos">
       <div ref={ref}>
         <MotionDiv
           variants={container}
@@ -91,7 +91,7 @@ export const Projects = () => {
             className="flex items-center gap-x-2 rounded-lg text-lg transition hover:bg-opacity-80 hover:text-target"
             onClick={() => setShowMore(!showMore)}
           >
-            Mostrar {showMore ? 'Menos' : 'Mais'}{' '}
+            Mostrar {showMore ? 'Menos' : 'Más'}{' '}
             <MoveDown
               width={20}
               height={20}

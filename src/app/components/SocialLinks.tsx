@@ -4,7 +4,7 @@ import { Github, Linkedin } from 'lucide-react'
 
 export const socialData = [
   { link: 'https://github.com/grazziotti', icon: <Github /> },
-  { link: 'https://linkedin.com/in/daniel-grazziotti/', icon: <Linkedin /> }
+  { link: 'https://www.linkedin.com/in/fabricio-dandeo-41a188242/', icon: <Linkedin /> }
 ]
 
 export const SocialLinks = () => {

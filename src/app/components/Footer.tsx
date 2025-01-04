@@ -10,7 +10,7 @@ const socialData = [
     icon: <Github width={iconSize.width} height={iconSize.height} />
   },
   {
-    link: 'https://www.linkedin.com/in/daniel-grazziotti/',
+    link: 'https://www.linkedin.com/in/fabricio-dandeo-41a188242/',
     icon: <Linkedin width={iconSize.width} height={iconSize.height} />
   }
 ]
