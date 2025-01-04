@@ -16,7 +16,7 @@ export const Hero = () => {
             }}
             className="text-center text-8xl font-bold md:text-7xl sm:text-5xl"
           >
-            Daniel Grazziotti<span className="text-target">.</span>
+            Fabricio Dandeo<span className="text-target">.</span>
           </MotionH1>
           <MotionP
             initial={{ opacity: 0, x: -40 }}
